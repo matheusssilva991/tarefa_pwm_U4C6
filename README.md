@@ -1,14 +1,6 @@
 # Tarefa PWM - Embarcatech
 
-Neste projeto, utilizo dois botões, uma matriz de LED, um LED RGB e um display OLED. O sistema recebe caracteres via comunicação serial, exibindo-os no display OLED e no monitor serial. Caso o caractere recebido seja um número (0-9), ele também é exibido na matriz de LED.
-
-Além da exibição de caracteres, os botões permitem o controle do LED RGB:
-
-O botão A alterna o estado do LED verde.
-O botão B alterna o estado do LED azul.
-
-As mudanças nos estados dos LEDs são exibidas no display OLED e no monitor serial.
-Este projeto foi desenvolvido para demonstrar o uso de entrada serial, exibição gráfica e controle de LEDs, sendo uma aplicação prática para sistemas embarcados interativos. 🚀
+Neste projeto, utilizo um servo motor controlado por um sinal PWM (Pulse Width Modulation) gerado pelo Raspberry Pi Pico. O objetivo é ajustar a posição do servo motor variando o ciclo de trabalho do sinal PWM.
 
 ## Requisitos
 
@@ -23,10 +15,9 @@ Este projeto foi desenvolvido para demonstrar o uso de entrada serial, exibiçã
 
 ## Componentes
 
-- 2 botões
-- 1 matriz de LED
-- 1 LED RGB
-- 1 display OLED
+- 1 Servo motor
+- 1 LED Azul
+- 1 Resistor 330 ohms
 
 ## Como executar
 
@@ -48,7 +39,7 @@ git clone [https://github.com/matheusssilva991/tarefa_pwm_U4C7.git]
 
 A seguir, um vídeo demonstrando o funcionamento do projeto:
 
-[![Vídeo de demonstração](https://drive.google.com/file/d/1MnN60RjaqYw7YUs6u8nGOXI0HXsvKUcU/view?usp=sharing)](https://drive.google.com/file/d/1MnN60RjaqYw7YUs6u8nGOXI0HXsvKUcU/view?usp=sharing)
+[![Vídeo de demonstração](https://drive.google.com/file/d/1eCvQWWOYvX0lwcxmBvJmZ861oHGRGmJX/view?usp=sharing)](https://drive.google.com/file/d/1eCvQWWOYvX0lwcxmBvJmZ861oHGRGmJX/view?usp=sharing)
 
 ## 🤝 Equipe
 
